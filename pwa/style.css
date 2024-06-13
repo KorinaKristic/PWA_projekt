@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #f2f2f2;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Old English Text MT', serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.main-content h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-section article {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.news-section article img {
+    width: 100%;
+    height: auto;
+}
+
+.news-section article h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.news-section article p {
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.news-section article time {
+    font-size: 0.8em;
+    color: #666;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.novo{
+    text-align: center;
+  
+}
